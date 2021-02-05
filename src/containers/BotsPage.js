@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 
 class BotsPage extends Component {
-  //start here with your code for step one
+  
+  Bot(props){
+    return <div>{props.bot}</div>
+  }
 
   render() {
-    return <div>{/* put your components here */}</div>;
+    return <div>"Hello"{this.props.bot}</div>;
   }
 }
 
